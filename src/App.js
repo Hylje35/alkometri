@@ -44,8 +44,7 @@ function App() {
         </div>
         <div>
           <label>Time (hours)</label>
-            <input type='number' value={time} onChange={e => setTime(e.target.value)}/>
-             
+          <input type='number' value={time} onChange={e => setTime(e.target.value)}/>     
         </div>
         <div>
           <label>Gender</label>
